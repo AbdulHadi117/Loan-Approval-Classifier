@@ -46,12 +46,18 @@ The aim is to explore **which factors most influence loan approval** and compare
   * Outliers represent **genuine high-wealth applicants** and were  **not removed** .
   * Removing them would bias the sample and discard predictive information.
   * Tree-based models naturally handle outliers; for linear models, transformations were applied.
+
+    ![1755793937765](image/README/1755793937765.png)
 * **Box-Cox Transformation**
   * Applied on skewed asset values.
   * Helps stabilize variance and improve performance of logistic regression.
   * Original + transformed versions kept for A/B testing.
 
-    ![1755792838091](image/README/1755792838091.png)
+    ![1755793922782](image/README/1755793922782.png)
+
+    ![1755793916230](image/README/1755793916230.png)
+
+    ![1755793896542](image/README/1755793896542.png)
 * **Target Variable Distribution**
   * Approved: **62.2%**
   * Rejected: **37.8%**
